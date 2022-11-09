@@ -43,7 +43,16 @@ print(frutas[3])
 
 print("\n")
 
+# Exemplo com o WHILE
+
 i = 0
 while(i<len(frutas)):
   print(frutas[i])
   i += 1
+
+# Exemplo com o FOR
+
+print("\n")
+
+for fruta in frutas:
+  print(fruta)
