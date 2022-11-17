@@ -22,6 +22,6 @@ sql2 = f"INSERT INTO pessoas (pessoa_id, nome, nome_civil, tipo) VALUES ('{pesso
 
 cursor.execute(sql2)
 conexao.commit()
-conexao.close()
+conexao.close() 
 
 
